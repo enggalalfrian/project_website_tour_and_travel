@@ -1,0 +1,719 @@
+*{
+	margin:0px;
+}
+
+body{
+	font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+/*
+header, nav, main, footer{
+	border: 1px solid grey;
+}*/
+
+/*---1. Header---*/
+#heading{
+	display: inline;
+	margin: 5px 25px;
+	padding: 5px;
+	letter-spacing: 5px;
+	font-size: 35px;
+	color: #4f4b4b;
+}
+
+#heading:hover{
+	color:rgb(51, 122, 183);
+	cursor: pointer;
+}
+
+#p1{
+	margin-left:31px;
+	margin-bottom: 10px;
+}
+
+#heading_gambar{
+	position: absolute;
+	top: 120px;
+	left: 750px;
+}
+
+#info1{
+	font-size: 45px;
+	color: white;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+}
+
+#info2{
+	font-size: 18px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#tombol_selengkapnya{
+	margin: 10px 0px;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	border:0;
+	font-weight: bold;
+	box-shadow: 0.5px 3px 0.5px 0.5px black;
+}
+
+#tombol_selengkapnya:hover{
+	color: white;
+	background-color: rgb(51, 122, 183);
+}
+
+/*---end---*/
+
+
+/*---2.Navbar---*/
+nav{
+	 margin: 5px; 
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+	 padding-right: 5px;
+	 padding-left: 842px;
+	 position: absolute;
+	 top: 15px;
+}
+
+.menu{
+	margin-left: 15px;
+	text-decoration: none;
+	color: #4f4b4b;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.menu:hover{
+	font-weight: bold;
+	letter-spacing: 3px;
+	color:rgb(51, 122, 183);
+}
+
+/*---end---*/
+
+
+/*---3.Main Content---*/
+/*---3.1 Wisata Antar Negara---*/
+#konten2{
+	margin: 15px;
+	padding: 15px;
+}
+
+#judul_negara{
+	margin: 0px 13px;
+	margin-bottom: 20px;
+	padding: 10px 0px;
+	font-size: 28px;
+	font-weight: 900;
+    height: 30px;
+    width: 1265px;
+    color: #ffffff;
+    background-color:rgb(51, 122, 183);
+    text-indent: 15px;
+}
+
+.kota_tujuan{
+	margin-left: 13px;
+	margin-bottom: 10px;
+	z-index: 0;
+}
+
+#palestina{
+	z-index: 1;
+	position: absolute;
+	top: 785px;
+	left: 220px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#madinah{
+	z-index: 1;
+	position: absolute;
+	top: 785px;
+	left: 562px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#turki{
+	z-index: 1;
+	position: absolute;
+	top: 785px;
+	left: 905px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#switzerland{
+	z-index: 1;
+	position: absolute;
+	top: 785px;
+	left: 1160px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#paris{
+	z-index: 1;
+	position: absolute;
+	top: 1025px;
+	left: 265px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#uae{
+	z-index: 1;
+	position: absolute;
+	top: 1025px;
+	left: 610px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#usa{
+	z-index: 1;
+	position: absolute;
+	top: 1025px;
+	left: 930px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#jepang{
+	z-index: 1;
+	position: absolute;
+	top: 1025px;
+	left: 1215px;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+/*---end---*/
+
+
+/*---3.2 Wisata Lokal---*/
+#konten3{
+	margin: 0px 15px;
+	padding: 0px 15px;
+}
+
+#judul_kota{
+	margin: 0px 13px;
+	margin-bottom: 20px;
+	padding: 10px 0px;
+	font-size: 28px;
+	font-weight: 900;
+    height: 30px;
+    width: 1265px;
+    color: #ffffff;
+    background-color:rgb(51, 122, 183);
+    text-indent: 15px;
+}
+
+.lokal1{
+	margin-bottom: 30px;
+}
+
+#wisata_bromo{
+	margin-left: 13px;
+	z-index: 0;
+}
+
+#deskripsi_bromo{
+	display: inline-block;
+	/*background-color: grey;*/
+	width: 297px;
+	height: 226px;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 13px;
+	word-wrap: break-word;
+	/*border: solid 2px grey;*/
+	text-align: justify;
+	color: #666666;
+}
+
+#wisata_danau_toba{
+	margin-left: 335px;
+	z-index: 0;
+}
+
+#deskripsi_danau_toba{
+	display: inline-block;
+	/*background-color: grey;*/
+	width: 297px;
+	height: 226px;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 19px;
+	word-wrap: break-word;
+	/*border: solid 2px grey;*/
+	text-align: justify;
+	color: #666666;
+}
+
+#wisata_way_kambas{
+	margin-left: 13px;
+	z-index: 0;
+}
+
+#deskripsi_way_kambas{
+	display: inline-block;
+	/*background-color: grey;*/
+	width: 297px;
+	height: 226px;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 13px;
+	word-wrap: break-word;
+	/*border: solid 2px grey;*/
+	text-align: justify;
+	color: #666666;
+}
+
+#wisata_gili_trawangan{
+	margin-left: 335px;
+	z-index: 0;
+}
+
+#deskripsi_gili_trawangan{
+	display: inline-block;
+	/*background-color: grey;*/
+	width: 297px;
+	height: 226px;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 19px;
+	word-wrap: break-word;
+	/*border: solid 2px grey;*/
+	text-align: justify;
+	color: #666666;
+}
+
+#wisata_rinjani{
+	margin-left: 13px;
+	z-index: 0;
+}
+
+#deskripsi_rinjani{
+	display: inline-block;
+	/*background-color: grey;*/
+	width: 297px;
+	height: 226px;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 13px;
+	word-wrap: break-word;
+	/*border: solid 2px grey;*/
+	text-align: justify;
+	color: #666666;
+}
+
+#wisata_bunaken{
+	margin-left: 335px;
+	z-index: 0;
+}
+
+#deskripsi_bunaken{
+	display: inline-block;
+	/*background-color: grey;*/
+	width: 297px;
+	height: 226px;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 19px;
+	word-wrap: break-word;
+	/*border: solid 2px grey;*/
+	text-align: justify;
+	color: #666666;
+}
+
+/*---end---*/
+
+
+/*---3.3 Layanan---*/
+.layanan .wrapper-layanan{
+	margin: 0px 28px;
+	padding: 0px 15px;
+	text-align: center;
+}
+
+.layanan img{
+	width: 1349px;
+	height: 350px;
+	object-fit: cover; /*jelaskan*/
+	z-index: -1;
+	filter: brightness(50%);
+}
+
+.wrapper-layanan{
+	position: relative;
+	z-index: 1;
+	top: -267px;
+}
+
+.wrapper-layanan h3{
+	margin: 5px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.wrapper-layanan h4{
+	margin: 5px 0px;
+	font-size: 24px;
+	color: white;
+}
+
+.wrapper-layanan p{
+	font-size: 17px;
+	margin-top: 5px;
+	margin: 10px 0px;
+	color: white;
+}
+
+.wrapper-layanan input[type="submit"]{
+	margin: 10px 0px;
+	padding: 7px 19px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ff8500;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#submit-layanan:hover{
+	background-color: #F39C12;
+}
+
+/*---end---*/
+
+
+/*---3.4 Tentang Kami---*/
+.tentang .wrapper-tentang{
+	margin: 25px 28px;
+	padding: 25px 15px;
+}
+
+.tentang{
+	margin-top: -190px;
+}
+
+#header-tentang{
+	text-align: center;
+}
+
+#header-tentang > p{
+	margin-bottom: 20px;
+	font-size: 18.5px;
+	font-family: "Open Sans",sans-serif;
+	color: #4f4b4b;
+}
+
+#header-tentang > button{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 7px 19px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ff8500;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#header-tentang > button:hover{
+	background-color: #F39C12;
+}
+
+.flexbox-tentang{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.group_tentang{
+	text-align: center;
+	width: 300px;
+	height: 100px;
+}
+
+.group_tentang > h4{
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+.group_tentang > p {
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+/*---end---*/
+
+
+/*---3.5 Layanan---*/
+
+.majalah{
+	margin-top: 130px;
+}
+
+.majalah .wrapper-majalah{
+	margin: 0px 28px;
+	padding: 0px 15px;
+	text-align: center;
+}
+
+.majalah img{
+	width: 1349px;
+	height: 350px;
+	object-fit: cover; /*jelaskan*/
+	z-index: -1;
+	filter: brightness(50%);
+}
+
+.wrapper-majalah{
+	position: relative;
+	z-index: 1;
+	top: -257px;
+}
+
+.wrapper-majalah h3{
+	margin: 5px 0px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.wrapper-majalah h4{
+	margin: 5px 0px;
+	font-size: 24px;
+	color: white;
+}
+
+.wrapper-majalah p{
+	font-size: 17px;
+	margin-top: 5px;
+	margin: 10px 0px;
+	color: white;
+}
+
+.wrapper-majalah input[type="submit"]{
+	margin: 10px 0px;
+	padding: 7px 19px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ff8500;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#submit-majalah:hover{
+	background-color: #F39C12;
+}
+
+/*---end---*/
+
+
+/*---3.6 Berita---*/
+
+.berita{
+	background: #3a7bd5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	position: relative;
+	top: -113px;
+	height: 115px;
+}
+
+.berita .wrapper-berita{
+	margin: 0px 28px;
+	padding: 0px 15px;
+}
+
+.wrapper-berita{
+	position: relative;
+	top: 20px;
+}
+
+.wrapper-berita p{
+	color: white;
+	font-size: 25px;
+}
+
+#daftar-berita{
+	float: left;
+	margin-right: 30px;
+}
+
+.wrapper-berita form{
+	position: relative;
+	top: -27px;
+}
+
+.wrapper-berita #daftar-berita{
+	font-size: 16px;
+	color: white;
+}
+
+.wrapper-berita form{
+	display: inline;
+}
+
+.wrapper-berita input[type="submit"]{
+	margin: 10px 0px;
+	padding: 7px 19px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ff8500;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#submit-berita:hover{
+	background-color: #F39C12;
+}
+
+#input-berita{
+	width: 320px;
+	height: 27px;
+}
+
+/*---end---*/
+
+
+/*---4. Footer---*/
+footer .wrapper-footer{
+	margin: 0px 98px;
+	padding: 0px 15px;
+}
+
+footer{
+	position: relative;
+	top: -53px;
+}
+
+.contact{
+	width: 30%;
+	float: left;
+	margin-left: 70px;
+}
+
+.contact-us{
+	display: inline-block;
+}
+
+.contact p:first-child{
+	margin-bottom: 10px;
+}
+
+.waktu-kerja{
+	display: inline-block;
+}
+
+.jam-kerja{
+	width: 30%;
+	float: left;
+}
+
+.jam-kerja p:first-child{
+	margin-bottom: 10px;
+}
+
+.connect-with-us{
+	width: 30%;
+	float: left;
+}
+
+#koneksi{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#unduh-app{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.social-media{
+	text-align: center;
+}
+
+.download{
+	text-align: center;
+}
+
+.download a{
+	text-decoration: none;
+}
+
+.app-store{
+	position: relative;
+	top: -8px;
+}
+
+.copyright{
+	position: relative;
+	top: 50px;
+	border-top: 1px dashed grey;
+	display: inline-block;
+}
+
+.list-pertama,
+.list-kedua,
+.list-ketiga{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.list-pertama{
+	margin-top: 10px;
+}
+
+.link-pertama, .link-kedua{
+	color: #3a5795;
+	text-decoration: none;
+}
+
+.link-pertama:hover, .link-kedua:hover{
+	color: #3a5795;
+	text-decoration: underline;
+}
+
+.list-ketiga p{
+	color: #3a5795;
+}
+
+.list-ketiga a{
+	text-align: center;
+	text-decoration: none;
+	color: #3a5795;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.list-ketiga a:hover{
+	color: #154360;
+	text-decoration: underline;
+}
+
+
+/*---end---*/
+
